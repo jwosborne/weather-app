@@ -1,3 +1,4 @@
+
 const request = require('request');
 
 var geocodeAddress = (address, callback) =>  {
@@ -15,7 +16,7 @@ var geocodeAddress = (address, callback) =>  {
             callback(undefined, {
                 address: body.results[0].providedLocation.location,
                 latitude: body.results[0].locations[0].latLng.lat,
-                longitude: body.results[0].locations[0].latLng.lat
+                longitude: body.results[0].locations[0].latLng.lng
             });
         }
     });
