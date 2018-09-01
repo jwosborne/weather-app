@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Osborne",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.73.0",
+    "yargs": "^4.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwosborne/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwosborne/weather-app/issues"
+  },
+  "homepage": "https://github.com/jwosborne/weather-app#readme",
+  "description": ""
+}
